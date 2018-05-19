@@ -32,6 +32,9 @@ while i<n:
         inj *= case[j]
         j+=1
         c += 1 
+    if c == 444:
+        noc += 1
     count=max(count,c)
     i = j 
-print(count)
+    print(i)
+print(count,noc)
